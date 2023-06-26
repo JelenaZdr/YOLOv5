@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imgdsp>
+<imgdsp>
+    <programs>
+        <program name="DCT">
+            <params>
+            </params>
+        </program>
+        <program name="Exposure">
+            <params>
+                <param name="threshold" min="0" current="0" max="255"/>
+            
+            </params>
+        </program>
+		<program name="Cutout">
+			<params>
+			</params>
+		</program>
+		<program name="Cut+Aspect">
+			<params>
+			</params>
+		</program>
+    </programs>
+		
+    <in_imgs>
+        <in_img file_name="playing_kitten.jpg"/>
+        <in_img file_name="baboon.bmp"/>
+        <in_img file_name="green_cat.jpg"/>
+        <in_img file_name="Party.jpg"/>
+        <in_img file_name="CatWithGreenEyes.png"/>
+		<in_img file_name="balls2.jpg"/>
+    </in_imgs>
+    <out_imgs>
+        <out_img file_name="processed_img.jpg"/>
+    </out_imgs>
+</imgdsp>

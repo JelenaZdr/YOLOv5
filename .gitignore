@@ -1,0 +1,10 @@
+# Waf.
+.waf*/
+waf3*/
+
+# Qt
+build-*/
+
+# YOLO
+runs/
+std_weights/
