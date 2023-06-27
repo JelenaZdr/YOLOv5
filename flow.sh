@@ -56,9 +56,9 @@ yolo detect predict \
 # On our weights.
 yolo detect predict \
 	save=True project=runs/predict \
-	name='fruits_s' \
-	model=weights/fruits_s.pt \
-	source=datasets/valid/images/IMG003.jpg
+	name='Nesto' \
+	model=weights/balls_s.pt \
+	source=0
 
 #########
 # Track.
